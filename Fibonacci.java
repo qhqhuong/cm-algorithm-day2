@@ -6,7 +6,7 @@ public class Fibonacci {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-		System.out.println("Type number: ");
+		System.out.println("Please enter your number: ");
 
 		int number = input.nextInt();
 		int fibo = findFibonacci(number);
